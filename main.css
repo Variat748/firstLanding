@@ -1,42 +1,111 @@
 body {
 	background-color: lightgray;
 	font-family: 'Helvetica', 'Arial', sans-serif;
-    color: #444444;
+    
+/*new*/
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
 }
 
+.header-background {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img/computer-g5d6434dd0_1920.jpg");
+    background-position: center top;
+}
 .menu {
 	height: 50px;
-	background-color: #3EB469;
+
+	/*new*/
+
+	/*background-color: #3EB469;*/
+
 }
 
 .button-left {
 	width: 90px;
 	height: 50px;	
 	color: #3EB469;
-	background-color: #313345;
 	float: left;
+
+/*new*/
+	
+	/*background-color: #313345;*/
+
+
+}
+
+.button-left span {
+	 display: table;
+    margin: 15px auto;
+    font-size: 20px;
+}
+
+.button-left:hover {
+	cursor: pointer;
+	border: 2px solid;
 }
 
 .button-right {
 	width: 90px;
 	height: 50px;
 	color: #3EB469;
-	background-color: #313345;
 	float: right;
+
+/*new*/
+	/*new*/
+	
+	/*background-color: #313345;*/
+}
+
+.button-right span {
+	 display: table;
+    margin: 15px auto;
+    font-size: 20px;
+}
+
+.button-right:hover {
+	cursor: pointer;
+	border: 2px solid;
 }
 
 .header {
 	height: 300px;
-	background-color: #6F8FAF;
+
+	/*new*/
+	/*background-color: #6F8FAF;*/
+
 }
 
 .header-text {
-	width: 400px;
+	/*new*/
+	/*width: 400px;*/
+
+	margin-left: auto;
+    margin-right: auto;
+        width: 300px;
 }
+
+
+/*new*/
+.title {
+	font-size: 76px;
+}
+
+.subtitle {
+	font-size: 46px;
+}
+
+/*end new*/
 
 .info-left {
 	height: 250px;
-	background-color: #3EB469;
+
+	/*new*/
+	/*background-color: #3EB469;*/
+
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img/cute-business-cat-with-glasses.jpg") no-repeat 0 0;
+        background-position: left center;
+    background-size: 600px;
 }
 
 .img1 {
@@ -51,18 +120,36 @@ body {
 }
 
 .text-left {
-	width: 300px;
-	color: #FFFFFF;
+	width: 300px;	
+
+	/*new*/
+	/*color: #FFFFFF;*/
+	color: #3EB469;
+	font-size: 46px;
+	    display: table;
+    margin: 46px auto;
 }
+
+
 
 .info-right {
 	height: 250px;
-	background-color: #FFFFFF;
+
+	/*new*/
+	/*background-color: #FFFFFF;*/
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img/wallpaperbetter.com_1920x1080.jpg") no-repeat 0 0;
+        background-position: right center;
+    background-size: 800px;
 }
 
 .text-right {
 	width: 300px;
 	color: #3EB469;
+
+	/*new*/
+	font-size: 46px;
+	    display: table;
+    margin: 46px auto;
 }
 
 .block-text-info-right {
@@ -71,6 +158,7 @@ body {
 }
 
 .img2 {
+	width: 50%;
 	float: right;
 }
 
@@ -83,10 +171,91 @@ body {
 	width: 50%;
 	color: #FFFFFF;
 	float: left;
+
+/*new*/
+display: table;
+	width: 350px;
+    margin: 46px;
+    font-size: 18px;
 }
 
 .links {
 	width: 50%;
 	color: #FFFFFF;
 	float: right;
+	
+	/*new*/
+	display: table;
+	    margin: 26px auto;
+    font-size: 18px;
+}
+
+/*new*/
+.footer-center-text {
+	display: table;
+}
+
+.green-color {
+	color:  #3EB469;
+}
+
+.list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.list li {
+  float: left;
+}
+
+.list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+.list li a:hover {
+  border-bottom: 2px solid;
+}
+
+.contact {
+	background: linear-gradient(to top, #3EB469, dimgray);
+	height: 310px;
+
+}
+.form {
+	margin-left: auto;
+    margin-right: auto;
+   width: 700px;
+}
+
+label textarea {
+	vertical-align: middle;
+}
+
+label span {
+	font-size: 46px;
+    margin-left: 196px;
+    color: #ffffff;
+}
+
+form textarea{
+    background-color: #3EB469;
+    border-radius: 10px;
+    height: 200px;
+    width: 650px;
+}
+
+button {
+	font-size: 26px;
+    margin-left: 280px;
+    background-color: #3EB469;
+    color: white;
+    border: 2px solid;
 }
