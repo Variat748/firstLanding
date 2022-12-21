@@ -87,11 +87,11 @@ body {
 	background-size: 600px;
 }
 
-.img1 {
+/*.img1 {
 	width: 50%;
 	float: left;
 
-}
+}*/
 
 .block-text-info-left {
 	width: 50%;
@@ -122,12 +122,13 @@ body {
 	float: left;
 }
 
-.img2 {
+/*.img2 {
 	float: right;
-}
+}*/
 
 .contact {
 	height: 310px;
+	background: linear-gradient(to top,#3EB469,dimgray);
 }
 
 .footer {
