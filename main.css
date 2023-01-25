@@ -33,8 +33,8 @@ body {
 }
 
 .header-background {
-	background: url("img/IMG-0dcfa102b8371ca20bbb79d66de2cb09-V.jpg");
-	background-position: center top;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("img/IMG-0dcfa102b8371ca20bbb79d66de2cb09-V.jpg");
+	background-position: center top; 
 }
 
 
@@ -82,7 +82,7 @@ body {
 .info-left {
 	height: 250px;
 	background-color: #3EB469;
-	background: url("img/IMG-2b3af053bbdefd990228bd7b8a6e4c50-V.jpg") no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/IMG-2b3af053bbdefd990228bd7b8a6e4c50-V.jpg") no-repeat;
 	background-position: left center;
 	background-size: 600px;
 }
@@ -106,7 +106,7 @@ body {
 .info-right {
 	height: 250px;
 	background-color: #FFFFFF;
-	background: url("img/IMG-c2c327036decb9da2c1cd2643bd78346-V.jpg") no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url("img/IMG-c2c327036decb9da2c1cd2643bd78346-V.jpg") no-repeat;
 	background-position: center right;
 	background-size: 800px;
 }
